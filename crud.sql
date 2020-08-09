@@ -26,21 +26,11 @@ SET time_zone = "+00:00";
 -- Estrutura da tabela `clientes`
 --
 
-CREATE TABLE `clientes` (
-  `id` int(11) NOT NULL,
-  `nome` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `sobrenome` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `idade` int(3) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
 
 --
 -- Extraindo dados da tabela `clientes`
 --
-
-INSERT INTO `clientes` (`id`, `nome`, `sobrenome`, `email`, `idade`) VALUES
-(10, 'Rodrigo', 'Oliveira', 'rodrigosantosweb@gmail.com', 123),
-(26, '&lt;script&gt;location.href=&quot;http://google.com&quot; &lt;/script&gt;', 'Teste', 'teste@gmail.com', 23);
 
 --
 -- Indexes for dumped tables
